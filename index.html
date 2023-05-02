@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="4.css">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img width="100"
+                    src="data:image/png;base64,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"
+                    alt="image">
+
+            </div>
+            <form class="search">
+                <input type="search" placeholder="Search">
+                <input type="submit" value="GO">
+            </form>
+            <div class="clearfix"></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Service</a>
+                        <ul class="drop">
+                            <li>Service 1</li>
+                            <li>Service 2</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">products</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="img cycle_sildeshow">
+            <!-- add two images -->
+            <!-- <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" -->
+            <!-- alt="img"> -->
+            <!-- <img src="https://img.etimg.com/thumb/msid-95169733,width-1200,height-900,imgsize-53448,resizemode-8,quality-100/tech/technology/blurring-lines-between-sci-fi-and-reality-why-ai-needs-responsible-policy-intervention.jpg" alt="image">  -->
+            <!-- <img src=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" alt="ai image">         -->
+            <img src="https://img.etimg.com/thumb/msid-95169733,width-1200,height-900,imgsize-53448,resizemode-8,quality-100/tech/technology/blurring-lines-between-sci-fi-and-reality-why-ai-needs-responsible-policy-intervention.jpg"
+                alt="im">
+            <!-- <img src="https://www.analyticsinsight.net/wp-content/uploads/2020/07/Artificial-Intelligence-Trends-1024x545.jpeg" alt="ai"> -->
+        </section>
+
+        <section class="content">
+            <article class="con">
+                <main>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis assumenda iste,
+                        ea qui labore aliquam reiciendis quaerat, sit non laborum voluptatum necessitatibus accusamus
+                        debitis nam eaque minus hic nemo quae provident? Earum magni impedit, eum consequatur ipsum
+                        tempora quae quidem vel optio fugiat modi totam! dolor sit amet consectetur adipisicing elit.
+                        Labore, vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde soluta dolorem
+                        tenetur. Cumque amet architecto pariatur ipsa minima sit atque doloremque doloribus perspiciatis
+                        error at magnam, excepturi possimus ut in.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quidem a,
+                        corporis officia animi libero doloremque quasi sed dignissimos. Quas mollitia ipsa qui iure
+                        blanditiis labore repudiandae tempore, fuga maxime architecto eum eius, ullam vitae sed esse
+                        alias error optio! sit amet consectetur adipisicing elit.lorem30 Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Hic libero iste debitis veritatis. Laboriosam, sunt minima
+                        perspiciatis velit, necessitatibus aspernatur omnis laborum ullam voluptatum ab tenetur,
+                        mollitia vitae natus architecto. Obcaecati, omnis.</p>
+                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam fuga
+                        sint at neque. Doloribus fugiat dolores nihil obcaecati tempore illo nostrum repellendus
+                        voluptate, maxime, odit exercitationem eos. Esse cumque qui optio dicta odit ipsam iusto,
+                        aperiam expedita fuga, earum sapiente ut quis doloribus, autem blanditiis. Iure, ab! Dolorum
+                        eaque cupiditate reiciendis odio nihil officiis et vitae. consectetur adipisicing elit.
+                        Perferendis, ratione!</p>
+                </main>
+            </article>
+        </section>
+        <!-- creating side bar -->
+
+
+        <aside class="sidebar">
+            <div class="wid">
+                <h1>Widgets
+                </h1>
+                <ul>
+                    <li><a href="#">2019</a></li>
+                    <li><a href="#">2020</a></li>
+                    <li><a href="#">2023</a></li>
+                    <li><a href="#">2024</a></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+        <footer class="fot">
+            <div class="fotdiv">
+                <h3>Fotter Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">products</a></li>
+                </ul>
+            </div>
+            <div class="fotdiv">
+                <h3>Fotter Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">products</a></li>
+                </ul>
+            </div>
+            <div class="fotdiv">
+                <h3>Fotter Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">products</a></li>
+                </ul>
+            </div>
+
+            <address>
+                <h3>Company Name</h3>
+                78,djihsndsn,uyhsjn,36838
+                <p><a href="mailto:aartighumi@gmail.com">aartighumi@gmail.com</a></p>
+                <p><a href="tel:123465785">123456743546</a></p>
+            </address>
+            <div class="clearfix"></div>
+        </footer>
+
+        <!-- adding copyright -->
+        <div class="copy">
+            <p>Copyright &copy; 2020, all rights reserved</p>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+</body>
+
+</html>

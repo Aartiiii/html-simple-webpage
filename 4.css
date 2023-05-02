@@ -1,0 +1,155 @@
+.body{
+    background-color:black;
+    /* background-image: url(https://www.shutterstock.com/image-vector/modern-technology-circuit-board-texture-260nw-1950228286.jpg); */
+   background-image: url();
+    margin: auto;
+}
+.container{background-color: aqua;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.logo{
+    float: left;
+    background-color: burlywood;
+    margin:10px;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+
+.nav{
+    background-color: teal;
+}
+.clearfix{
+    clear: both;
+}
+.nav>ul{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+
+}
+.nav>ul>li{
+    color: white;
+    display: inline-block;
+}
+.nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav>ul>li>a:hover{
+    background-color:orange;
+}
+.drop{
+    list-style-type: none;
+    margin: none;
+    padding: 0px;
+    position: absolute;
+display: none;
+z-index: 999;
+}
+.drop>li{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+
+}
+.drop>li>a:hover{
+    background-color: orange;
+}
+.nav>ul>li:hover>.drop{
+    display: block;
+}
+.img{
+    width: 1000px;
+    height: 416.66px;
+    margin: 50px;
+overflow: hidden;
+border-color: black;
+}
+.img img{
+    width:60%;
+    height:auto;
+}
+.content{
+    background-color:black;
+}
+.con{
+    font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.con h1{
+font-size: 1.5em;
+}
+.con>p{
+  font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar{
+    float: left;
+margin: 25px;
+
+}
+
+.wid{
+    background-color: greenyellow;
+}
+.wid>ul>li{
+    list-style-type: none;
+padding: 10px;
+}
+.wid>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.fot{
+background-color: black;
+color: white;
+width: 950px;
+height: auto;
+padding: 25px;
+
+}
+.fotdiv{
+    width: 237.5px;
+    height: auto;
+    float: left;
+}
+.fotdiv>ul>li{
+    list-style-type: none;
+    margin: none;
+    padding: 0px;
+}
+.fotdiv>ul>li>a{
+    display: block;
+    margin-bottom:auto;
+    color: white;
+    text-decoration: none;
+}
+.fotdiv>address>a{
+    color: white;
+    text-decoration: none;
+}
+.copy{
+    color: bwhite;
+    text-decoration: none;
+    padding: 10px;
+background-color: red;
+text-align: center;
+}
+.copy>p{
+margin: 0px;
+}
